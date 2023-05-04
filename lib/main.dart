@@ -8,7 +8,7 @@ import 'cubit/app_cubits.dart';
 void main() {
   runApp(
     MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
       home: BlocProvider<AppCubits>(
         create: (context) {
           return AppCubits(
